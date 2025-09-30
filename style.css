@@ -1,3 +1,4 @@
+/* FONTS */
 
 .roboto {
   font-family: "Roboto", sans-serif;
@@ -7,31 +8,14 @@
   font-variation-settings:
     "wdth" 100;
 }
-header {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    padding: 5px;
-    padding-left: 15px;
-    background-color: #1F2937;
-    color: #f9faf8;
 
-}
-.nav-links {
-    display: flex;
-    justify-content: flex-end;
-    gap: 20px;
-    width: 100%;
-    padding-right: 200px;
-}
+/* HTML */
+
 html {
     font-family: Roboto;
-    s
 }
-.container {
-    display: flex;
-    flex-direction: column;
-}
+
+ /* BODY */
 
 body {
     background-color: #FFFFFF;
@@ -40,6 +24,34 @@ body {
     text-align: center;
     font-family: 'Roboto', arial;
 }
+
+/* NAVBAR */ 
+
+header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 5px;
+    padding-left: 15px;
+    background-color: #1F2937;
+    color: #f9faf8;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    width: 100%;
+    padding-right: 200px;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+    padding-left:140px;
+}
+
+/* HERO SECTION */
 
 .hero-section {
     display: flex;
@@ -51,7 +63,7 @@ body {
     padding-left: 150px;
 
 }
-.button1 {
+.hero-section button{
     width: 75px;
     border-radius: 5px;
     background-color: #3882f6;
@@ -63,9 +75,4 @@ body {
 .hero-section p{
     font-size: 18px;
     color: #e5e7eb
-}
-.logo {
-    width: 150px;
-    height: auto;
-    padding-left:140px;
 }
