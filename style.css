@@ -60,7 +60,6 @@ header {
     padding: 90px;
     background-color: #1F2937;
     color: #f9faf8;
-    padding-left: 150px;
 
 }
 .hero-section button{
@@ -69,10 +68,58 @@ header {
     background-color: #3882f6;
     color: #f9faf8;
 }
+
 .hero-section h1{
     font-size: 48px;
 }
+
 .hero-section p{
     font-size: 18px;
-    color: #e5e7eb
+    color: #e5e7eb;
+    align-self: left;
+    
+}
+
+/* CONTENT SECTION */
+
+.content-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 90px;
+    background-color: white;
+    color: #1F2937;
+    padding-left: 150px;
+}
+
+.content-section h1{
+    text-align: center;
+}
+
+.content-section div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* GAME LIST */
+
+.games-list div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.games-list img {
+    width: 150px;        
+    height: 150px;
+    object-fit: cover;    
+    border-radius: 5%;
+    border: 5px solid #3882f6;
+}
+.games-list p{
+    margin: 0;
+    text-align: center;
 }
